@@ -3,10 +3,6 @@
   overflow: hidden;
 }
 
-
-
-
-
 body {
   background-image: url(./images/matooke-local-dish.jpg);
   background-repeat: no-repeat;
@@ -27,18 +23,15 @@ body {
   font-size: 17px;
 }
 
-
 .topnav a:hover {
   background-color: #ddd;
   color: rgb(82, 67, 74);
 }
 
-
 .topnav a.active {
   background-color: #aa0486;
   color: white;
 }
-
 form {
   border: 3px solid #f1f1f1;
 }
@@ -53,7 +46,6 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-
 button {
   background-color: #aa0486;
   color: white;
@@ -64,11 +56,9 @@ button {
   width: 100%;
 }
 
-
 button:hover {
   opacity: 0.8;
 }
-
 
 .cancelbtn {
   width: auto;
@@ -82,51 +72,23 @@ button:hover {
   background-color: green;
 }
 
-
 .imgcontainer {
   text-align: center;
   margin: 14px 0 7px 0;
 }
-
 
 img.avatar {
   width: 10%;
   border-radius: 20%;
 }
 
-
-
-
-
-
 .container {
-  
-  
-  
-  
-  
-  
-  
-  
   padding: 16px;
- 
- 
- 
- 
- 
- 
   border: 1px solid #007bff; 
- 
- 
   margin: 20px auto;
   max-width: 500px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
 }
-
-
-
-
-
 
 .button1 {
   border-radius: 5%;
@@ -191,10 +153,8 @@ footer {
   padding-bottom: 0px;
   background-image: url(./images/Beans\,\ rice\,\ posho\ and\ matooke\ 🍲.jpeg);
   color: white;
-
-
-
 }
+
 .fa {
   padding: 15px;
   font-size: 20px;
@@ -204,19 +164,23 @@ footer {
   margin: 5px 2px;
   border-radius: 50%;
 }
+
 .fa-rss {
   background: #ff6600;
   color: white;
 }
+
 .fa-reddit {
   background: #ff5700;
   color: white;
 }
+
 .fa-snapchat-ghost {
   background: #f5f506;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 .fa:hover {
     opacity: 0.7;
 }

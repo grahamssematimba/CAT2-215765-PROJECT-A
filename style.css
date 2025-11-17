@@ -1,18 +1,22 @@
 .topnav {
   background-color: #0c56b0a8;
   overflow: hidden;
- 
 }
-  body{
-      background-image: url(./images/matooke-local-dish.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      color: #0c0c0c;
-    }
+
+
+
+
+
+body {
+  background-image: url(./images/matooke-local-dish.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #0c0c0c;
+}
 
 .topnav a {
   float: left;
@@ -31,7 +35,7 @@
 
 
 .topnav a.active {
-  background-color: #aa04a2;
+  background-color: #aa0486;
   color: white;
 }
 
@@ -91,33 +95,52 @@ img.avatar {
 }
 
 
+
+
+
+
 .container {
+  
+  
+  
+  
+  
+  
+  
+  
   padding: 16px;
-}
-
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-
-  .cancelbtn {
-    width: 100%;
-  }
-} 
-.container {
+ 
+ 
+ 
+ 
+ 
+ 
   border: 1px solid #007bff; 
-  padding: 15px;
+ 
+ 
   margin: 20px auto;
   max-width: 500px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+
+
+
+.button1 {
+  border-radius: 5%;
+  border: 2px solid #04AA6D;
+  color: black;
+  background-color: white; 
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .modal {
@@ -134,25 +157,19 @@ span.psw {
   padding-top: 60px;
 }
 
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
 
-.button1 {
-  border-radius: 5%;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
   }
-
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #04AA6D;
+  .cancelbtn {
+    width: 100%;
+  }
 }
 
 .button1:hover {
@@ -174,7 +191,9 @@ footer {
   padding-bottom: 0px;
   background-image: url(./images/Beans\,\ rice\,\ posho\ and\ matooke\ 🍲.jpeg);
   color: white;
-  
+
+
+
 }
 .fa {
   padding: 15px;
